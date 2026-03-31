@@ -1,0 +1,53 @@
+/* Colores personalizados [cite: 21] */
+.header-logo { background-color: #8bc34a; } /* Verde Lima del LOGO */
+.bg-lime { background-color: #8bc34a; }
+.bg-light-green { background-color: #dcedc8; }
+.bg-light-blue { background-color: #e3f2fd; }
+
+/* Hero Section con Imagen y Capa [cite: 27] */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Botón "Reserva ya" [cite: 29] */
+.btn-orange { 
+    background-color: #e67e22; 
+    color: white; 
+    border: none;
+    transition: 0.3s;
+}
+.btn-orange:hover { background-color: #d35400; color: white; }
+
+/* Imágenes laterales pequeñas [cite: 35, 36] */
+.img-side {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+/* Simulación de Mapa [cite: 40] */
+.map-placeholder {
+    height: 200px;
+    background-color: #f5f5f5;
+    background-image: url('https://www.google.com/maps/about/images/mymaps/mymaps-desktop-16x9.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer y Columnas [cite: 45, 61] */
+.footer-main { background-color: #1a1a1a; color: white; }
+.footer-col { background-color: #333333; min-height: 140px; }
+
+/* Estilos de Tabla [cite: 37] */
+.table { background-color: white; }
